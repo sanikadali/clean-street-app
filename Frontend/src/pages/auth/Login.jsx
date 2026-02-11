@@ -8,7 +8,6 @@ function Login() {
        <div className="flex justify-center items-center h-[80vh] bg-gray-100">
         <LoginForm />
       </div>
-      Login
     </div>
   )
 }

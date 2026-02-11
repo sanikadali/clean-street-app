@@ -1,7 +1,6 @@
-import { Button } from '@/components/ui/button'
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-
+import { Link } from 'react-router-dom';
+import { Button } from '@/components/ui/button'
 function RegisterForm() {
   const [name,setName]=useState("");
   const [username,setUsername]=useState("");
@@ -85,7 +84,7 @@ const handleSubmit=(e)=>{
         <input type="password" placeholder="Create a password"value={password} onChange={(e) => setPassword(e.target.value)} className="w-full px-4 py-2 border rounded-lg"/>
       </div>
 
-      <button className="w-full bg-blue-600 cursor-pointer text-white py-2 rounded-lg hover:bg-blue-700">Register</button>
+      <button className="w-full cursor-pointer py-2 text-white transition bg-[#f56551] rounded-full shadow-lg hover:bg-blue-700 transition-duration-200">Register</button>
     </form>
 
       <p className="text-center text-sm mt-4">Already have an account?{" "}
@@ -93,6 +92,7 @@ const handleSubmit=(e)=>{
       </p>
     </div>
   )
+
 }
 
 export default RegisterForm

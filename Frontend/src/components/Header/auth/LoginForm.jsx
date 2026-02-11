@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function LoginForm() {
-
+  
   const [email,setEmail]=useState("");
   const [password,setPassword]=useState("");
   const [error,setError]=useState("");
@@ -45,7 +45,7 @@ function LoginForm() {
         <label className="text-sm">Password</label>
         <input type="password" onChange={(e) => setPassword(e.target.value)}className="w-full border px-3 py-2 rounded mt-1"placeholder="Enter your password"/>
       </div>
-      <button className="w-full bg-blue-600 text-white py-2 rounded cursor-pointer">Login</button>
+      <button className="w-full py-2 cursor-pointer text-white transition bg-[#f56551] rounded-full shadow-lg hover:bg-blue-700 transition-duration-200">Login</button>
       </form>
 
       <p className="text-center text-sm mt-3">Don’t have an account?{" "}
@@ -54,6 +54,7 @@ function LoginForm() {
       </div>
       </div>
   )
+
 }
 
 export default LoginForm

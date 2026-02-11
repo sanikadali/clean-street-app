@@ -1,6 +1,6 @@
 import Header from '@/components/Header/Header'
 import React from 'react'
-import RegisterForm from '../../components/Header/auth/RegisterForm'
+import RegisterForm from '../../components/Header/auth/registerform'
 function Register() {
   return (
     <div>

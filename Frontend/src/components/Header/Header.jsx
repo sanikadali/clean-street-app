@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from '../ui/button'
-
-const Header = () => {
+function Header() {
   return (
     <div>
       <nav className='flex justify-between items-center px-8 py-4 border-b'>
@@ -18,6 +17,7 @@ const Header = () => {
         </div>
       </nav>
     </div>
+
   )
 }
 
