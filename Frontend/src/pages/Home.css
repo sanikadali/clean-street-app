@@ -1,0 +1,145 @@
+.section {
+  padding: 50px 20px;
+  background-color: #ffffff;
+}
+
+.alt-bg {
+  background-color: #f5f6f7;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #111827;
+}
+
+
+.hero {
+  background: linear-gradient(135deg, #f3a7a7, #ff8e53);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  height: 100%;
+}
+
+.hero h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 40px;
+}
+
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #F26B4F;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.card p{
+    color: #4b5563;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.feature-grid h4 {
+  color: #F26B4F;
+  margin-bottom: 8px;
+  font-size: 19px;
+}
+
+.feature-grid p {
+  color: #4b5563;
+  font-size: 16px;
+}
+
+.center-text {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+  color: #4b5563;
+}
+
+.center-text p{
+    font-size: 21px;
+    line-height: 1.6;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.testimonial-card h4 {
+  margin-top: 15px;
+  color: #F26B4F;
+  font-size: 20px;
+}
+
+.testimonial-card p{
+    font-size: 19px;
+    font-style: italic;
+    color: #4b5563;
+}
+.cta {
+  padding: 43px 20px;
+  text-align: center;
+  background: linear-gradient(to right, #ff8e53, #f3a7a7);
+  color: white;
+}
+.cta h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.cta p{
+    font-size: 22px;
+}
+.cta-btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 30px;
+  background-color: white;
+  color: #F26B4F;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #C9442A ;
+  color: white;
+  transform: scale(1.09);
+}

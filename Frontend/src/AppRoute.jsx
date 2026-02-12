@@ -1,8 +1,9 @@
 import React from 'react'
 import {Routes,Route} from 'react-router-dom'
-import Register from './pages/auth/register'
-import Login from './pages/auth/login'
-import Home from './pages/home'
+import Register from './pages/Auth/Register'
+import Login from './pages/Auth/Login'
+import Home from './pages/Home'
+import Dashboard from './pages/Dashboard'
 
 function AppRoute() {
   return (
@@ -11,6 +12,7 @@ function AppRoute() {
         <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
+        <Route path='/dashboard' element={<Dashboard/>}/>
       </Routes>
     </div>
   )

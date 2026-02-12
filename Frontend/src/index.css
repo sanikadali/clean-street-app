@@ -68,20 +68,6 @@
 .nav_underline:hover{
     border-bottom: 3px solid rgb(118, 4, 4);
     color: rgb(118, 4, 4);
-}
-
-.main{
-  background: linear-gradient(135deg, #f3a7a7, #ff8e53);
-  color: white;
-  padding: 80px 20px;
-  text-align: center;
-  height: 100%;
-}
-.main h1{
-  font-size: 60px;
-  margin-bottom: 10px;
-}
-.main p{
-  font-size: 40px;
+    transform: scale(1.09); 
 }
 }

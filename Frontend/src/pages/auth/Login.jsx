@@ -1,11 +1,11 @@
 import Header from '@/components/Header/Header'
 import React from 'react'
-import LoginForm from '../../components/Header/auth/LoginForm'
+import LoginForm from '../../components/Header/Auth/LoginForm'
 function Login() {
   return (
     <div>
       <Header/>
-       <div className="flex justify-center items-center h-[80vh] bg-gray-100">
+       <div className="flex justify-center items-center pb-[250px] pt-[120px] bg-[#fdecea]">
         <LoginForm />
       </div>
     </div>

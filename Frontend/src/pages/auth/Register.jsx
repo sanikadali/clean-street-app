@@ -1,11 +1,11 @@
 import Header from '@/components/Header/Header'
 import React from 'react'
-import RegisterForm from '../../components/Header/auth/registerform'
+import RegisterForm from '../../components/Header/Auth/RegisterForm'
 function Register() {
   return (
     <div>
       <Header/>
-      <div className="min-h-screen bg-gray-100 flex items-center justify-center px-4">
+      <div className=" py-10 bg-[#fdecea] flex items-center justify-center px-5">
       <RegisterForm/>
       </div>
     </div>
